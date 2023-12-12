@@ -56,6 +56,17 @@ export class FinalStack extends cdk.Stack {
       actions: ['s3:*', 'sqs:*'],
     }));
 
+    const sendEmailFunction = new lambda.Function(this, 'SendEmailFunction', {
+      runtime: lambda.Runtime.PYTHON_3_10,
+      code: lambda.Code.fromAsset(path.join(__dirname, '../functions/c/')),
+      handler: 'main.lambda_handler',
+    });
+
+    sendEmailFunction.addToRolePolicy(new iam.PolicyStatement({
+      resources: ['*'],
+      actions: ['s3:*', 'sqs:*'],
+    }));
+
 
 
 
