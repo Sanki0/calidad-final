@@ -25,7 +25,7 @@ export class FinalStack extends cdk.Stack {
     const fileUploadFunction = new lambda.Function(this, 'FileUploadFunction', {
       runtime: lambda.Runtime.PYTHON_3_10,
       code: lambda.Code.fromAsset(path.join(__dirname, '../functions/a/')),
-      handler: 'lambda_handler.handler',
+      handler: 'main.lambda_handler',
     });
     
     // add s3, sqs full access to lambda role
@@ -37,7 +37,7 @@ export class FinalStack extends cdk.Stack {
     const listContentsFunction = new lambda.Function(this, 'ListContentsFunction', {
       runtime: lambda.Runtime.PYTHON_3_10,
       code: lambda.Code.fromAsset(path.join(__dirname, '../functions/list-contents/')),
-      handler: 'lambda_handler.handler',
+      handler: 'main.lambda_handler',
     });
 
     listContentsFunction.addToRolePolicy(new iam.PolicyStatement({
@@ -48,7 +48,7 @@ export class FinalStack extends cdk.Stack {
     const receiveMessageFunction = new lambda.Function(this, 'ReceiveMessageFunction', {
       runtime: lambda.Runtime.PYTHON_3_10,
       code: lambda.Code.fromAsset(path.join(__dirname, '../functions/b/')),
-      handler: 'lambda_handler.handler',
+      handler: 'main.lambda_handler',
     });
 
     receiveMessageFunction.addToRolePolicy(new iam.PolicyStatement({
