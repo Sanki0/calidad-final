@@ -1,0 +1,35 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2023-12-13T02:25:02.820Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "AWS:AIDAR2ZGIV45POFTCVAVX"
+      },
+      "responseElements": {
+        "x-amz-request-id": "Z3MFE8T6NCNG249Y",
+        "x-amz-id-2": "7yXXLE1e0cUEgFpgW2I6+VcH61ZHazLj7s11RUhZNMH2hi8+IYOtjvP/AJWUt5c27w6jN/4WU5RD/KqJemZZoDv3EKcJ7WHV"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "M2Y5OWU5YjYtMmVkOC00NmZkLTlkNjUtZDE2Y2Y3MGNjZWMy",
+        "bucket": {
+          "name": "calidad-final-bucket-2023-2",
+          "ownerIdentity": {
+            "principalId": "A2L1RL2G97NEAP"
+          },
+          "arn": "arn:aws:s3:::calidad-final-bucket-2023-2"
+        },
+        "object": {
+          "key": "b.csv",
+          "size": 1154,
+          "eTag": "c4191f710d0b5e92b5b2fec5c62f1f38",
+          "sequencer": "00657915FEBBCE0A79"
+        }
+      }
+    }
+  ]
+}
