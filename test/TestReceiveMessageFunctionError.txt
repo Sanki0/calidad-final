@@ -1,0 +1,21 @@
+{
+  "Records": [
+    {
+      "messageId": "295a78c3-6a0d-49df-9712-087615ce10aa",
+      "receiptHandle": "AQEBfzTBiWe9IxvAd22hsPQ+PsrziHooyBK/oxyfjjzrBk/Srl66/ymZB6Cr4aj2W/GWzrMg7ZiSuNAfiatOi+PMSG1foWdwEqG8M2DWPyKNebqcSBjJ/k8h8g3J+BQ+xsUU2mgB5v8LDG1VCQiDkXuMRtBx7dadrg3uOwxQwE+yF/AWNi1b4JnZBQwxl+uQ9OXHZ2m1AcrKIiI77WZJyxUlKoOqCX571RQpWfB3FpssLM+ldFCWcPVH5Zk+AlGgDTqq2qkRcn6wqQ3mAeEvmoGItZMS1n0y304PAuPUweExAWlkYOgYBdGONzF1JOJLEOsOEyLORaOQiY0L8OhpXBbgV/4azSJEZv5bZYd0Cd8xvzSMY0nvnGqC5MVcYmB7844XpPapm4ZGvOCcjgNokCUkWw==",
+      "body": "\"calidad-final-bucket2-2023-2/ab.json\"",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "AWSTraceHeader": "Root=1-6578ff74-746b33ff52bf77bb3d29f5aa;Parent=0609ee7c0c80daea;Sampled=0;Lineage=78fbb7b1:0",
+        "SentTimestamp": "1702428535997",
+        "SenderId": "AROAR2ZGIV45LSABJ2IFW:FinalStack-readFileFunctionA6CC96F6-stFKsvVVUaAP",
+        "ApproximateFirstReceiveTimestamp": "1702428536002"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "36a2a71e5d8436983f5fa743a78d9b60",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:126244925242:calidad-final-queue",
+      "awsRegion": "us-east-1"
+    }
+  ]
+}

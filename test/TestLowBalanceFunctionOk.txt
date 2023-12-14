@@ -1,0 +1,21 @@
+{
+  "Records": [
+    {
+      "messageId": "55d574d7-a488-4495-b2ef-6e2d757ffd40",
+      "receiptHandle": "AQEBvtMqwN4EVOSIGgA7F20gZxT9vGXMBaAq1ltCmv6A/TQAMCKlKsfdKsCcnsne6XoR1hHZlTsn7qB/Df7S+1YYR052+6OqjyXTlH+lOO+AJVqQidRo4P2S5Tt4hsW04jghPFc8sMjxxFWYnJqj4vcnBav1yw5/NVmlDdXgDp7mR9ACxh4n8XeGJPVzDUMJ/L36VFDpcJFkfjWOZFhG/tr6V6tw3xjdcn0VP9btJV1qbQMpCvnEJSk75PQr+g719EX1BvrmpqqbJu6Azzo61IG0JbCJd1Kle++O3dYtab29t4ruXZqS4KvWrDU/NI8TcN6KXC5DxtPS8dIc0ZXZGuQRRUZQp/v0xWFe3Tog81sKSk6i6nvq2sLRgYkqNFU2+X50pXg5sx+549fSwd+NJ5e4qMbQ+NEHDTPTMyn3ZDA+Vd0=",
+      "body": "20004.6",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "AWSTraceHeader": "Root=1-6579f2f8-1997289203c316db3d4a6985;Parent=76a6a7643461da57;Sampled=0;Lineage=f0c1e81f:0",
+        "SentTimestamp": "1702490873251",
+        "SenderId": "AROAR2ZGIV45DYDSTNJEW:FinalStack-ReceiveMessageFunction88F1B803-UjYNHFDqo16t",
+        "ApproximateFirstReceiveTimestamp": "1702490873257"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "686053204596f6e2b807cb701115d469",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:126244925242:calidad-final-queue-low-balance",
+      "awsRegion": "us-east-1"
+    }
+  ]
+}
